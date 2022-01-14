@@ -1,0 +1,120 @@
+$grey: grey
+$light-grey: lighten($grey, 40%)
+$transparent-grey: rgba($grey, 0.2)
+
+$pink: #f845c8
+$transparent-pink: rgba($pink, 0.2)
+
+$green: #0abe19
+$transparent-green: rgba($green, 0.2)
+
+$yellow: #f7d204
+$transparent-yellow: rgba($yellow, 0.2)
+
+$teal: #04bef7
+$transparent-teal: rgba($teal, 0.2)
+
+$true-purple: purple
+$transparent-true-purple: rgba($true-purple, 0.2)
+
+$purple: #8381ff
+$transparent-purple: rgba($purple, 0.2)
+
+$blue: blue
+$transparent-blue: rgba($blue, 0.2)
+
+ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+    li.link
+        transition: all 0.2s ease
+        cursor: pointer
+
+.bg--grey
+    background: $grey
+.bg--transparent-grey
+    background: $transparent-grey
+.text--grey
+    color: $grey
+
+.bg--light-grey
+    background: $light-grey
+.bg--transparent-light-grey
+    background: $light-grey
+.text--light-grey
+    color: $light-grey
+
+.bg--pink
+    background: $pink
+.bg--transparent-pink
+    background: $transparent-pink
+.text--pink
+    color: $pink
+
+.bg--green
+    background: $green
+.bg--transparent-green
+    background: $transparent-green
+.text--green
+    color: $green
+
+.bg--blue
+    background: $blue
+.bg--transparent-blue
+    background: $transparent-blue
+.text--blue
+    color: $blue
+
+.bg--purple
+    background: $purple
+.bg--transparent-purple
+    background: $transparent-purple
+.text--purple
+    color: $purple
+
+.bg--teal
+    background: $teal
+.bg--transparent-teal
+    background: $transparent-teal
+.text--teal
+    color: $teal
+
+.br-1
+    border-radius: 5px
+
+.br-2
+    border-radius: 10px
+
+.br-3
+    border-radius: 20px
+
+.br-4
+    border-radius: 30px
+
+a
+    text-decoration: none
+
+body.dark
+    background: black
+    color: white
+body
+    // background: $light-grey
+    color: black
+    font-family: poppins, montserrat, sans-serif
+
+
+    &::before
+        content: ''
+        height: 70px
+        width: 100%
+        display: block
+
+    header
+        width: fit-content
+        background: $transparent-blue
+        color: $blue
+
+.debug
+    border: 1px solid red

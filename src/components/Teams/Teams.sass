@@ -1,0 +1,70 @@
+::-webkit-scrollbar
+    width: 10px
+    display: none
+.teams
+    .selectors
+        overflow-x: scroll
+
+    .selector
+        transition: all 0.3s ease
+        font-weight: bold
+        text-transform: capitalize
+        
+        &:not(:nth-child(1))
+            margin: 0 10px
+        &:not(:nth-child(1))
+            margin: auto
+            
+        &:hover
+            background: #b9b9b9
+            color: white
+        &.engineering
+            &:focus,
+            &:active
+                background: #46bbff
+                color: white
+        &.marketing
+            &:focus,
+            &:active
+                background: #46ff99
+                color: white
+        &.product
+            &:focus,
+            &:active
+                background: #46e3ff
+                color: white
+        &.design
+            &:focus,
+            &:active
+                background: #f046ff
+                color: white
+        &.finance
+            &:focus,
+            &:active
+                background: #ff6b46
+                color: white
+        &.agencies
+            &:focus,
+            &:active
+                background: #46fff6
+                color: #505050
+        &.it
+            &:focus,
+            &:active
+                background: #46bbff
+                color: white
+        &.recruiting
+            &:focus,
+            &:active
+                background: #46e3ff
+                color: white
+        &.support
+            &:focus,
+            &:active
+                background: #ffe346
+                color: white
+        &.hr
+            &:focus
+                background: #7bff46
+                color: white
+            
